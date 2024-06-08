@@ -3,6 +3,7 @@
 1. [Introduction](#adapter-pattern)
 2. [When to use](#when-to-use)
 3. [When not to use](#when-not-to-use)
+4. [Example](#when-not-to-use)
 
  --------
 
@@ -47,6 +48,6 @@
 
 -  **Simple Wrapping:** If the adaptation involves only minor changes and can be handled by simple method wrapping or delegation without introducing a full-fledged adapter, prefer the simpler approach.
 
-
+-----
 ## Example
 ![Adapter Pattern Example](example.png)
