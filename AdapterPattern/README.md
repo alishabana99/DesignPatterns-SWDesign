@@ -3,11 +3,11 @@
 1. [Introduction](#adapter-pattern)
 2. [When to use](#when-to-use)
 3. [When not to use](#when-not-to-use)
-4. [Example](#when-not-to-use)
+4. [Example](#example)
 
  --------
 
-## Adapter Pattern 🧩
+## Adapter Pattern🧩
 
 **Adapter** is a ***structural design pattern*** that allows objects with incompatible interfaces to collaborate.
 
