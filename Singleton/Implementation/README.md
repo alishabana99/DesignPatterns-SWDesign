@@ -1,4 +1,10 @@
-# Requirements
+# USE CASE: Multiple SPI Slaves Controller
+
+1. [Requirements](#requirements)
+2. [Block diagram](#block-diagram)
+3. [Class diagram](#class-diagram)
+-----
+### Requirements
 We are developing a system that requires communication with multiple SPI devices. The system has a single SPI peripheral but needs to handle two SPI slaves, each with distinct configurations. To ensure efficient and safe access to the SPI bus, we will implement a Singleton design pattern for the SPI controller.
 ![sys-circuit](sys-circuit.png)
 
@@ -15,10 +21,10 @@ We are developing a system that requires communication with multiple SPI devices
 - Handle configurations switching efficiently and minimize overhead and complexity.
 
 ---
-## Block Diagram
+### Block Diagram
 ![block-diagram](sys-block-diagram.png)
 
-## Class Diagram 
+### Class Diagram 
 ![block-diagram](sys-class-diagram.png)
 
 

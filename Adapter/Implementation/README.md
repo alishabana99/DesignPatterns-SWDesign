@@ -1,4 +1,9 @@
-# Requirements
+# USE CASE: Smart Home Application
+
+1. [Requirements](#requirements)
+2. [Class diagram](#class-diagram)
+----
+### Requirements
 A smart home system that integrates with various types of smart devices. Each device type has its own unique interface and method for performing actions. Your system requires a **unified interface** to control any type of smart device.
 
 1. A mobile application client user interface that enables the user to interact with any device through 3 actions: 
@@ -17,4 +22,7 @@ A smart home system that integrates with various types of smart devices. Each de
 	- Door lock lock.
 	- Door lock unlock.
 	- Is door locked? status.
-	- 
+	
+
+### Class Diagram
+![Smart Home](smart_home_app_adapter_pattern_uml.png)

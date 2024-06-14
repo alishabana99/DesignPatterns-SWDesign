@@ -2,10 +2,10 @@
 CXX = g++
 
 # Source directories
-SRCDIRS := SPIManager
+SRCDIRS := Command Invoker Logger Receiver
 
 # Header directories
-#INCDIRS := $(SRCDIRS) SPIConfig
+INCDIRS := $(SRCDIRS)
 
 # Main source file
 MAIN_SRC := main.cpp
@@ -14,7 +14,7 @@ MAIN_SRC := main.cpp
 # ADDITIONAL_SRCS := 
 
 # Target executable
-TARGET := SPIManagerAPP
+TARGET := ROBOTARM
 
 # List of source files
 SRCS := $(wildcard $(addsuffix /*.cpp,$(SRCDIRS))) $(MAIN_SRC) $(ADDITIONAL_SRCS)
